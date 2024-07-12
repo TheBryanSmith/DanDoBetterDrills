@@ -4,6 +4,7 @@ import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestAdditio
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestDivision;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestMultiplication;
 import com.zipcodewilmington.danny_do_better_exercises.mathutilities.TestSubtraction;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
@@ -21,4 +22,41 @@ import static org.junit.Assert.*;
         TestMultiplication.class
 })
 public class TestMathUtilities {
+
+//    @Test
+//    public void testAdd(){
+//        MathUtilities mathUtilities = new MathUtilities();
+//
+//        Integer expected = 4;
+//        Integer actual = mathUtilities.add(2,2);
+//
+//        Assert.assertEquals(actual,expected);
+//    }
+//
+//    @Test
+//    public void testLongAddMethod(){
+//
+//    }
+//
+//    @Test
+//    public void testShortAddMethod(){
+//
+//    }
+//
+//    @Test
+//    public void testByteAddMethod(){
+//
+//    }
+//
+//    @Test
+//    public void testFloatAddMethod(){
+//
+//    }
+//
+//    @Test
+//    public void testDoubleAddMethod(){
+//
+//    }
+
+
 }
